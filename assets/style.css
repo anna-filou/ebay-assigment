@@ -1,0 +1,153 @@
+@font-face{
+    font-display:optional;
+    font-family:"Market Sans";
+    font-style:normal;
+    font-weight:400;
+    src:url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regular-WebS.eot);
+    src:url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regular-WebS.eot?#iefix) format('embedded-opentype'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regular-WebS.woff2) format('woff2'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regular-WebS.woff) format('woff'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regular-WebS.ttf) format('truetype'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regular-WebS.svg#MarketSans-Regular-WebS) format('svg')
+}
+@font-face{
+    font-display:optional;
+    font-family:"Market Sans";
+    font-style:normal;
+    font-weight:600;
+    src:url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-SemiBold-WebS.eot);
+    src:url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-SemiBold-WebS.eot?#iefix) format('embedded-opentype'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-SemiBold-WebS.woff2) format('woff2'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-SemiBold-WebS.woff) format('woff'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-SemiBold-WebS.ttf) format('truetype'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-SemiBold-WebS.svg#MarketSans-SemiBold-WebS) format('svg')
+}
+@font-face{
+    font-display:optional;
+    font-family:"Market Sans";
+    font-style:normal;
+    font-weight:700;
+    src:url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Bold-WebS.eot);
+    src:url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Bold-WebS.eot?#iefix) format('embedded-opentype'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Bold-WebS.woff2) format('woff2'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Bold-WebS.woff) format('woff'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Bold-WebS.ttf) format('truetype'),
+    url(https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Bold-WebS.svg#MarketSans-Bold-WebS) format('svg')
+}
+
+*{ margin: 0; padding: 0;}
+
+body { 
+  font-family:"Market Sans", Arial, sans-serif; 
+  font-size: 16px;
+  color:#767676; font-size: 1rem; line-height: 1.5; 
+  background-color:#ffffff; 
+}
+
+footer,header,section {
+  display: block;
+  max-width: 1440px; 
+  margin: 0 auto; 
+  overflow: hidden; 
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+footer {
+  border-top: 1px solid #C7C7C7;
+  padding-top: 3rem;
+}
+footer a.AdChoice {
+  display: inline-block;
+  position: relative;
+  padding-right: 1rem;
+}
+footer a.AdChoice::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: .75rem;
+  height: .75rem;
+  background: url("https://image.forbusiness.ebay.com/lib/fe9213737462077970/m/5/1d0abb44-5201-4997-aebe-322ccc0f3bff.svg") no-repeat right center / 100% auto;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 { margin:0; font-weight: 700; color: #245274; }
+p{margin: 0;}
+
+.strong { font-family:"Market Sans bold"; }
+/* a, a.link { text-decoration: underline; } */
+/* a:visited, a.link:visited { color: #062c19; } */
+/* a:hover, a.link:hover { color: #15884e; } */
+.border-bottom{
+  border-bottom: 1px solid #c7c7c7 !important;
+}
+
+
+/* COLORS */
+.ebay-yellow {color: #FBF3CA; fill: #FBF3CA;}
+.ebay-dark-yellow {color: #AB6424; fill: #AB6424;}
+.ebay-dark-orange {color: #AE421D; fill: #AE421D;}
+.ebay-blue {color: #3665F3; fill: #3665F3;}
+.ebay-cold-gray {color: #0E4A6C; fill: #0E4A6C;}
+.ebay-light-gray {color: #C7C7C7; fill: #C7C7C7;}
+
+.bg-ebay-yellow {background-color: #FBF3CA;}
+.bg-ebay-dark-yellow {background-color: #AB6424;}
+.bg-ebay-dark-orange {background-color: #AE421D;}
+.bg-ebay-blue {background-color: #3665F3;}
+.bg-ebay-cold-gray {background-color: #0E4A6C;}
+.bg-ebay-light-gray {background-color: #C7C7C7;}
+
+/* FORM */
+
+input {
+  padding: 16px;
+  border: 1px solid #C7C7C7;
+}
+
+button {
+  padding: 1.375rem 3.5rem;
+  border: none;
+  transition: all .15s ease-in;
+}
+
+button:hover {
+  background-color: #382aef;
+}
+
+
+
+/* RADIO BUTTON CARDS */
+
+input[type=radio] {
+  display: none;
+}
+
+.card {
+  transition: all .15s ease-in;
+  will-change: transition;
+  outline: 1px solid #C7C7C7;
+  outline-offset: -1px;
+}
+
+/* I use outline instead of border to put the “border” inside the card. 
+If I use border, there’s a jaggy movement when you select a different radio button */
+
+input[type=radio]:checked + .card {
+  background-color: #AE421D;
+  outline: none;
+}
+
+input[type=radio]:checked + .card span {
+  color: #FBF3CA;
+}
